@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kurse Zuhause
+
+Eine Plattform für die Vermittlung von Kursen und Nachhilfe in der Schweiz. Ob Sprachen, Nachhilfe, Musik oder andere Fähigkeiten - wir verbinden Lernende mit qualifizierten Kursleitern.
 
 ## Getting Started
 

@@ -1,4 +1,4 @@
-// Simplified tracking utilities for sprachkurse-zuhause
+// Simplified tracking utilities for kurse-zuhause
 // Based on nachhilfeportal-zuerich implementation
 
 interface TrackingParams {

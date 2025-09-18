@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Impressum | Sprachkurse Zuhause',
-  description: 'Impressum von Sprachkurse Zuhause - Kontaktinformationen und rechtliche Hinweise.',
+  title: 'Impressum | Kurse Zuhause',
+  description: 'Impressum von Kurse Zuhause - Kontaktinformationen und rechtliche Hinweise.',
 }
 
 export default function Impressum() {
@@ -16,7 +16,7 @@ export default function Impressum() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">Betreiber der Website</h2>
             <p className="mb-4">
-              <strong>Sprachkurse Zuhause</strong><br />
+              <strong>Kurse Zuhause</strong><br />
               Bildungsinstitut Fokus AG<br />
               Staffelstr 8<br />
               8045 Zürich<br />

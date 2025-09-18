@@ -48,7 +48,7 @@ export default function ConversionTracker() {
         const gclid = getGoogleClickId();
         
         // Generate unique transaction ID to prevent duplicates
-        const transactionId = `sprachkurs_lead_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+        const transactionId = `kurs_lead_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
         
         // Double-check that conversion hasn't been sent yet
         if (window.sessionStorage.getItem('google_ads_conversion_tracked')) {

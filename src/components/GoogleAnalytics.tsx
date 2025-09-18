@@ -4,7 +4,7 @@ import Script from 'next/script';
 import { useEffect } from 'react';
 import { initializeTracking } from '@/lib/tracking';
 
-const GA_ADS_ID = 'AW-16937882209'; // Google Ads ID für sprachkurse-zuhause
+const GA_ADS_ID = 'AW-16937882209'; // Google Ads ID für kurse-zuhause
 
 export default function GoogleAnalytics() {
   useEffect(() => {

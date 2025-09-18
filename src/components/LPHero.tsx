@@ -30,7 +30,7 @@ export default function LPHero({
       onButtonClick()
     } else {
       // Navigate to form page
-      router.push('/sprachen-finden')
+      router.push('/kurse-finden')
     }
   }
 

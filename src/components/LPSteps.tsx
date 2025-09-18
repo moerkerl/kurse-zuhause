@@ -22,7 +22,7 @@ export default function LPSteps({ title, steps, ctaText, onCTAClick }: LPStepsPr
     if (onCTAClick) {
       onCTAClick()
     } else if (ctaText) {
-      router.push('/sprachen-finden')
+      router.push('/kurse-finden')
     }
   }
 

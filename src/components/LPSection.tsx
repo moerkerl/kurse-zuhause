@@ -32,7 +32,7 @@ export default function LPSection({
     if (onButtonClick) {
       onButtonClick()
     } else if (buttonText) {
-      router.push('/sprachen-finden')
+      router.push('/kurse-finden')
     }
   }
 

@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Datenschutzerklärung | Sprachkurse Zuhause',
-  description: 'Datenschutzerklärung von Sprachkurse Zuhause - Erfahren Sie, wie wir Ihre Daten schützen und verarbeiten.',
+  title: 'Datenschutzerklärung | Kurse Zuhause',
+  description: 'Datenschutzerklärung von Kurse Zuhause - Erfahren Sie, wie wir Ihre Daten schützen und verarbeiten.',
 }
 
 export default function Datenschutz() {
@@ -67,7 +67,7 @@ export default function Datenschutz() {
               <li>E-Mail-Adresse</li>
               <li>Telefonnummer (optional)</li>
               <li>Ihre Nachricht</li>
-              <li>Informationen zur gewünschten Sprache und Sprachniveau</li>
+              <li>Informationen zum gewünschten Kurs und Niveau</li>
               <li>Postleitzahl für regionale Zuordnung</li>
             </ul>
           </section>
@@ -75,10 +75,10 @@ export default function Datenschutz() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">5. Nutzung und Weitergabe personenbezogener Daten</h2>
             <p className="mb-4">
-              Ihre personenbezogenen Daten werden nur für die Durchführung der Sprachkursvermittlung und damit verbundener Dienstleistungen verwendet. Eine Weitergabe Ihrer Daten erfolgt ausschliesslich:
+              Ihre personenbezogenen Daten werden nur für die Durchführung der Kursvermittlung und damit verbundener Dienstleistungen verwendet. Eine Weitergabe Ihrer Daten erfolgt ausschliesslich:
             </p>
             <ul className="list-disc pl-6 mb-4 space-y-2">
-              <li>An die von Ihnen ausgewählten oder für Sie passenden Sprachlehrer</li>
+              <li>An die von Ihnen ausgewählten oder für Sie passenden Kursleiter</li>
               <li>An Dienstleister, die uns bei der Bereitstellung unserer Services unterstützen (z.B. IT-Dienstleister, Hosting-Provider)</li>
               <li>Wenn wir gesetzlich dazu verpflichtet sind</li>
               <li>Wenn Sie uns Ihre ausdrückliche Einwilligung erteilt haben</li>
@@ -148,7 +148,7 @@ export default function Datenschutz() {
               Bei Fragen zur Erhebung, Verarbeitung oder Nutzung Ihrer personenbezogenen Daten, bei Auskünften, Berichtigung, Sperrung oder Löschung von Daten sowie Widerruf erteilter Einwilligungen wenden Sie sich bitte an:
             </p>
             <p className="mb-4">
-              Sprachkurse Zuhause<br />
+              Kurse Zuhause<br />
               Bildungsinstitut Fokus AG<br />
               Staffelstr 8<br />
               8045 Zürich<br />

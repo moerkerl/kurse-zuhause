@@ -1,5 +1,5 @@
 /**
- * HubSpot Service for Sprachkurse Zuhause
+ * HubSpot Service for Kurse Zuhause
  * Handles all HubSpot API interactions for contact management.
  */
 
@@ -278,8 +278,8 @@ export function mapPortalDataToHubSpot(data: PortalFormData): HubSpotContactData
     // Custom Properties für Lead Formular (bewährte Properties vom Nachhilfeportal)
     kontakt_hat_lead_formular_ausgefullt: 'Ja',
     was_fur_nachhilfe_benotigt_ihr_sohn_: data.kurstyp, // Kurstyp statt Sprache
-    sucht_nachhilfe_fur: mapWerBrauchtSprachkurs(data.schueler),
-    // schulstufe_kind wird nicht bespielt für Sprachkurse
+    sucht_nachhilfe_fur: mapWerBrauchtKurs(data.schueler),
+    // schulstufe_kind wird nicht bespielt für allgemeine Kurse
     utm_website_contact: 'kurse-zuhause.ch',
   };
   
@@ -302,7 +302,7 @@ export function mapPortalDataToHubSpot(data: PortalFormData): HubSpotContactData
 /**
  * Map schueler field to HubSpot format
  */
-function mapWerBrauchtSprachkurs(schueler: string): string {
+function mapWerBrauchtKurs(schueler: string): string {
   const mappings: Record<string, string> = {
     'meine-tochter': 'Meine Tochter',
     'mein-sohn': 'Mein Sohn',
