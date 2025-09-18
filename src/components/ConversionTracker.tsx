@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react'
 import { getStoredTrackingParams, getGoogleClickId } from '@/lib/tracking'
 
 const GA_ADS_ID = 'AW-16937882209'
-const CONVERSION_LABEL = '6V7oCNbRtYkbEOGkzow_'
+const CONVERSION_LABEL = 'nuUHCMi6jp0bEOGkzow_' // Neue Conversion für kurse-zuhause
 
 export default function ConversionTracker() {
   const hasInitialized = useRef(false)
